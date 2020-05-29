@@ -157,7 +157,7 @@ if (max(history.history['accuracy'])) > .80 :
 # In[ ]:
 
 
-fh = open('/root/Task3/accuracy.txt','w+')
+fh = open('/code/mlops/accuracy.txt','w+')
 fh.write (str(history.history['accuracy']))
 fh.close()
 
